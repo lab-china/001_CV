@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html>
+<head itemprop="Article" itemscope itemtype="http://schema.org/Article">
+    <meta charset="UTF-8">
+    <meta data-n-head="true" name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="theme-color" content="#de698c">
+    <meta http="Cache-Control" content="no-transform">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="applicable-device" content="pc">
+    <link rel="apple-touch-icon-precomposed" href="//static.hdslb.com/mobile/img/512.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="//www.bilibili.com/favicon.ico">
+    <link rel="apple-touch-icon" href="//www.bilibili.com/favicon.ico">
+    <meta name="name" content="PCDet环境搭建">
+    <meta itemprop="title" name="title" content="PCDet环境搭建">
+    <meta itemprop="description" name="description" content="点击进入查看全文">
+    <meta itemprop="keywords" name="keywords" content="环境搭建,python3,python,linux,问题解决,HTTPS,文件夹,可以通过,第一步,找不到,基本上,">
+    <meta itemprop="author" name="author" content="酱油与清洛">
+    <meta itemprop="url" content="https://www.bilibili.com/read/cv6796133/">
+    <meta itemprop="image" content="https://i0.hdslb.com/bfs/article/banner/4140cbb261f4a087ce95e9d9712e483d7e173460.png">
+    <meta itemprop="uploadDate" content="2020-7-17 4:5:49">
+    <meta itemprop="datePublished" content="2020-7-17 4:5:49">
+    <meta data-n-head="true" data-hid="og:type" property="og:type" content="article">
+    <meta data-n-head="true" data-hid="og:title" property="og:title" content="PCDet环境搭建">
+    <meta data-n-head="true" data-hid="og:image" property="og:image" content="https://i0.hdslb.com/bfs/article/banner/4140cbb261f4a087ce95e9d9712e483d7e173460.png">
+    <meta data-n-head="true" data-hid="og:url" property="og:url" content="http://www.bilibili.com/read/cv6796133/">
+    <meta name="renderer" content="webkit">
+    <meta name="spm_prefix" content="333.341">
+    <link data-n-head="true" rel="icon" type="image/x-icon" href="//www.bilibili.com/favicon.ico">
+    <link data-n-head="true" rel="apple-touch-icon-precomposed" type="image/x-icon" href="http://static.hdslb.com/mobile/img/512.png">
+    <link rel="Canonical" href="https://www.bilibili.com/read/cv6796133/">
+    <link rel="stylesheet" type="text/css" href="//static.hdslb.com/phoenix/dist/css/comment.min.css">
+    <title>PCDet环境搭建 - 哔哩哔哩</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "Article",
+        "@id": "https://www.bilibili.com/read/cv6796133/",
+        "appid": "1580859622074471",
+        "title": "PCDet环境搭建",
+        "images": "https://i0.hdslb.com/bfs/article/banner/4140cbb261f4a087ce95e9d9712e483d7e173460.png",
+        "thumbnailUrl":"https://i0.hdslb.com/bfs/article/banner/4140cbb261f4a087ce95e9d9712e483d7e173460.png",
+        "description": "点击进入查看全文",
+        "pubDate": "2020-7-17 4:5:49"
+      }
+    </script>
+    <script>
+      window.original = {
+        cvid: "6796133",
+        author: {
+          name: "酱油与清洛",
+          mid: "382015051"
+        },
+        banner_url: "",
+        reprint: "0",
+        summary: "点击进入查看全文",
+        media: "",
+        actId: "0",
+        dispute: {
+          dispute: "",
+          dispute_url: ""
+        },
+        spoiler: "0"
+      }
+    </script>
+<link href="//s1.hdslb.com/bfs/static/jinkela/article/pcDetail.d874cb41436e6574ec3e3c143925cf3c24c2d48d.css" rel="stylesheet"/></head>
+<body>
+<div id="biliMainHeader" class="report-wrap-module" style="height: 56px;"></div>
+<div class="page-container">
+    <div class="nav-tab-bar">
+      
+        <a href="//www.bilibili.com/read/home?from=articleDetail" target="_self" class="logo">
+        </a>
+        <a href="//www.bilibili.com/read/home?from=articleDetail" target="_self" class="tab-item" data-tab-id="0">
+          <span>推荐</span>
+        </a>
+        
+          
+          <a href="//www.bilibili.com/read/douga?from=articleDetail" target="_self" class="tab-item " data-tab-id="2">
+            <span>动画</span>
+          </a>
+          
+        
+          
+          <a href="//www.bilibili.com/read/game?from=articleDetail" target="_self" class="tab-item " data-tab-id="1">
+            <span>游戏</span>
+          </a>
+          
+        
+          
+          <a href="//www.bilibili.com/read/cinephile?from=articleDetail" target="_self" class="tab-item " data-tab-id="28">
+            <span>影视</span>
+          </a>
+          
+        
+          
+          <a href="//www.bilibili.com/read/life?from=articleDetail" target="_self" class="tab-item  on" data-tab-id="3">
+            <span>生活</span>
+          </a>
+          
+        
+          
+          <a href="//www.bilibili.com/read/interest?from=articleDetail" target="_self" class="tab-item " data-tab-id="29">
+            <span>兴趣</span>
+          </a>
+          
+        
+          
+          <a href="//www.bilibili.com/read/lightnovel?from=articleDetail" target="_self" class="tab-item " data-tab-id="16">
+            <span>轻小说</span>
+          </a>
+          
+        
+          
+          <a href="//www.bilibili.com/read/technology?from=articleDetail" target="_self" class="tab-item " data-tab-id="17">
+            <span>科技</span>
+          </a>
+          
+        
+
+      
+    </div>
+    <div class="up-info-holder">
+      <div class="fixed-box">
+        <div class="up-info-block">
+          <a class="up-face-holder " href="//space.bilibili.com/382015051" target="_blank">
+            <img class="up-face-image" data-face-src="//i1.hdslb.com/bfs/face/c337a85d383fd6584d89ee159fb3e0a62532a78d.jpg" src="//static.hdslb.com/images/member/noface.gif">
+            
+            
+            
+            
+
+          </a>
+          <div class="up-info-right-block">
+            <div class="row">
+              <a class="up-name" href="//space.bilibili.com/382015051" target="_blank">酱油与清洛</a>
+              <span class="level"></span>
+              <div class="nameplate-holder">
+                <i class="nameplate"></i>
+              </div>
+            </div>
+            <div class="row-2">
+              粉丝:
+              <span class="fans-num"></span>
+              <span class="view">阅读:</span>
+              <span class="view-num"></span>
+            </div>
+          </div>
+        </div>
+        <div class="follow-btn-holder  ">
+          <span class="follow-btn">关注</span>
+        </div>
+        <div class="up-article-list-block report-wrap-module report-scroll-module hidden" id="readRecommendInfo">
+          <div class="block-title">
+            推荐文章
+          </div>
+          <ul class="article-list">
+          </ul>
+        </div>
+        <div class="more">
+          <div class="top-bar">
+            <label>更多</label>
+          </div>
+          <a class="ac-link" href="//www.bilibili.com/read/apply/" target="_blank">
+            <div class="link">
+              <span class="icon">
+              </span>
+              <p class="title">成为创作者</p>
+              <p class="info">申请成为专栏UP主</p>
+            </div>
+          </a>
+          <a href="//www.bilibili.com/blackboard/help.html#专栏相关" target="_blank">
+            <div class="help">
+              <span class="icon">
+              </span>
+              <p class="title">专栏帮助</p>
+              <p class="info">查看专栏使用说明</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="right-side-bar">
+      <div class="to-comment">
+        <div class="comment-num-holder">
+          <span class="comment-num"></span>
+        </div>
+      </div>
+      <div class="to-top"></div>
+    </div>
+    <div class="head-container">
+        
+        
+            <div class="bangumi-rating-container"></div>
+        
+        <div class="argue-flag hidden"></div>
+        <div class="title-container">
+            <h1 class="title">PCDet环境搭建</h1>
+            <div class="info">
+                <a class="category-link" href="//www.bilibili.com/read/life#rid=15" target="_blank"><span>日常</span></a>
+                <span class="create-time" data-ts="1594929999"></span>
+                <div class="article-data"></div>
+            </div>
+        </div>
+
+        
+        <div style="display:none" class="author-container">
+            <a class="author-face" href="//space.bilibili.com/382015051" target="_blank">
+                <img data-face-src="//i1.hdslb.com/bfs/face/c337a85d383fd6584d89ee159fb3e0a62532a78d.jpg" src="//i1.hdslb.com/bfs/face/c337a85d383fd6584d89ee159fb3e0a62532a78d.jpg" class="author-face-img">
+                
+                
+                
+            </a>
+            <a class="author-name" href="//space.bilibili.com/382015051" target="_blank">酱油与清洛</a>
+          <div class="attention-btn slim-border">关注</div>
+        </div>
+    </div>
+
+    <div class="article-holder"><p>PCDet代码，目前代码是0.2版本，</p><p>https://github.com/open-mmlab/OpenPCDet</p><p><br/></p><p>整个环境搭建坑还是挺多的，花费了一天时间把问题解决掉了。</p><p>系统环境：</p><p>Ubuntu16.04</p><p>cuda 10.0</p><p>python 3.6.10</p><p>torch 1.2.0</p><p>torchvision 0.4.0</p><p><br/></p><p>根据 doc/INSTALL.md文件指示，需要安装环境具备以下条件：</p><ul class=" list-paddingleft-2"><li><p>Linux (tested on Ubuntu 14.04/16.04)</p></li><li><p>Python 3.6+</p></li><li><p>PyTorch 1.1 or higher (tested on PyTorch 1.1)</p></li><li><p>CUDA 9.0 or higher</p></li><li><p><code>spconv v1.0</code> (commit 8da6f96)</p></li></ul><p>其中spconv v1.0只能通过以下链接获取：</p><p>https://github.com/traveller59/spconv/tree/8da6f967fb9a054d8870c3515b1b44eca2103634</p><p><br/></p><p>spconv安装第一步命令为</p><p><code>git clone xxx.git --recursive</code></p><p><code>其中--recursive是因为其 third_party/pybind11/使用了另一份代码，如果不递归下载会缺失pybind11代码。也可以通过以下地址下载解压后放入相应文件夹：</code></p><p><code>https://github.com/pybind/pybind11/tree/085a29436a8c472caaaf7157aa644b571079bcaa</code></p><p><code><br/></code></p><p><code>spconv第二步命令为</code></p><p><code>sudo apt-get install libboostall-dev</code></p><p><code>实际应为</code></p><p><code>sudo apt-get install libboost-all-dev</code></p><p><code><br/></code></p><p>spconv第三步需要安装cmake，下载命令为：</p><p>wget https://github.com/Kitware/CMake/releases/download/v3.18.0/cmake-3.18.0-Linux-x86_64.tar.gz</p><p>解压：</p><p>tar -xvzf cmake-3.18.0-Linux-x86_64.tar.gz </p><p>部分博文中所说的，仅在bashrc中添加全局路径并不能成功使用cmake命令</p><p>(x) export PATH=/home/kk/code/tools/cmake-3.18.0-Linux-x86_64/bin:$PATH</p><p>创建软链接，使全局能够使用cmake命令</p><p>sudo ln -sf /home/kk//code/tools/cmake-3.18.0-Linux-x86_64/bin/* /usr/bin/</p><p><br/></p><p>spconv第四步，上述环境配置好后，安装代码本身。</p><p>python setup.py bdist_wheel</p><p>这一步我当时使用的venv创建了虚拟python3.6环境，导致编译过程找不到Python.h文件，后来在真实python3.6环境中此问题解决。因为使用的是ubuntu16.04，系统自带python3.5，因此需要在/usr/bin下修改python和python3软链接（不一定是必须）。</p><p>sudo ln -s /usr/bin/python3.6 /usr/bin/python3</p><p>sudo ln -s /usr/bin/python3.6 /usr/bin/python</p><p><br/></p><p>编译好代码后，会在spconv文件下的dist文件夹内生成whl文件，使用pip安装。</p><p>pip install spconv-1.0-cp36-cp36m-linux_x86_64.whl</p><p><br/></p><p>spconv安装好后基本上后面就不太会有问题了，</p><p><code>pip install -r requirements.txt </code></p><p><code>python setup.py develop</code></p><p><code><br/></code></p><p>pip修复妥协的办法：<br/></p><p>which pip</p><p>vim ~/.local/bin/pip</p><p>将from pip._internal import main 注释掉,改成from pip import main 保存退出就好了。</p><p><br/></p><p>pip修复简单直接的办法：</p><p>https://www.jianshu.com/p/6847a24f754d</p><p>https://pypi.org/project/pip/#files</p></div>
+    
+    <p class="original">本文为我原创</p>
+    
+    
+    <p class="authority">本文禁止转载或摘编</p>
+    
+     
+    <div class="article-action">
+      <div class="ops">
+        <span class="like-btn">
+          <i class="icon-video-details_like"></i>
+          <span>--</span>
+        </span>
+        <span class="coin-btn">
+          <i class="icon-video-details_throw-coin"></i>
+          <span>--</span>
+        </span>
+        <span class="fav-btn">
+          <i class="icon-video-details_collection"></i>
+          <span>--</span>
+        </span>
+        <span class="share-container share-btn">
+          分享到：<span></span>
+        </span>
+      </div>
+      <div class="more">
+        <!-- <i class="icon-general_more-actions"></i> -->
+        <div class="more-ops-list">
+          <ul>
+            <li value="0">投诉或建议</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="article-list-holder-block"></div>
+    <div class="draft-holder-block">
+    </div>
+    <div class="b-head comment-title-block">
+      <span class="b-head-t comment-results" style="display: inline;"></span>
+      <span class="b-head-t">评论</span>
+    </div>
+    <div class="comment-holder"></div>
+
+</div>
+<div id="biliMainFooter" class="report-wrap-module"></div>
+<script src="//static.hdslb.com/public/intersection-observer.js"></script>
+<script src="//static.hdslb.com/public/timing.min.js"></script>
+<script>window.performanceLog.setSource('article');</script>
+<script src="//static.hdslb.com/js/jquery-3.3.1.min.js"></script>
+<script>
+  window.reportMsgObj = {}
+  window.reportConfig = {
+    sample : 1,
+    errorTracker : false ,
+    resourceTracker: false ,
+    scrollTracker: false,
+    msgObjects : 'reportMsgObj'
+  }
+</script>
+<script type="text/javascript" charset="utf-8" src="//s1.hdslb.com/bfs/seed/jinkela/header-v2/header.js"></script>
+<script type="text/javascript" src="//s1.hdslb.com/bfs/seed/jinkela/footer-v2/footer.js"></script>
+<script src="//s1.hdslb.com/bfs/seed/jinkela/short/config/biliconfig.js"></script>
+<script type="text/javascript" src="//static.hdslb.com/phoenix/dist/js/comment.min.js"></script>
+<script src="//s1.hdslb.com/bfs/static/biliapp/biliapp.js"></script>
+<!-- <script type="text/javascript" src="//s1.hdslb.com/bfs/seed/log/report/log-reporter.js" crossorigin></script> -->
+<script>
+  (function(){
+  var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?e6352779c080ceddc1bc4c6bbe047b69":"https://jspassport.ssl.qhimg.com/11.0.1.js?e6352779c080ceddc1bc4c6bbe047b69";
+  document.write('<script src="' + src + '" id="sozz"><\/script>');
+  })();
+</script>
+<script type="text/javascript" src="//s1.hdslb.com/bfs/static/jinkela/article/manifest.d874cb41436e6574ec3e3c143925cf3c24c2d48d.js"></script><script type="text/javascript" src="//s1.hdslb.com/bfs/static/jinkela/article/vendor.d874cb41436e6574ec3e3c143925cf3c24c2d48d.js"></script><script type="text/javascript" src="//s1.hdslb.com/bfs/static/jinkela/article/pcDetail.d874cb41436e6574ec3e3c143925cf3c24c2d48d.js"></script></body>
+</html>
